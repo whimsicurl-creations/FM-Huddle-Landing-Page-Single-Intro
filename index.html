@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/f8f76b2390.js"></script> <!-- FontAwesome CDN link -->
+  <link rel="stylesheet" type="text/css" href="main.css"> <!-- External CSS file link -->
   
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
@@ -15,15 +16,28 @@
   </style>
 </head>
 <body>
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Register
-
+  <div class="content-wrapper">
+    <header>
+      <img src="images/logo.svg" alt="Huddle Logo">
+    </header>
+    <main>
+      <div class="left">
+        <img src="images/illustration-mockups.svg" alt="Site Mockups">
+      </div>
+      <div class="right">
+        <h1>Build The Community Your Fans Will Love</h1>
+        <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+        Create connections with your users as you engage in genuine discussion.</p>
+        <button id="register-btn">Register</button>
+      </div>
+    </main>
+  </div> <!-- End content wrapper -->
   <footer>
+    <div class="social-icons">
+        <i class="fab fa-facebook-f social"></i>
+        <i class="fab fa-twitter social"></i>
+        <i class="fab fa-instagram social"></i>
+    </div>
     <p class="attribution">
       This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
     </p>
